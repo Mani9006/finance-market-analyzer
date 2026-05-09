@@ -348,3 +348,43 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">
   Built with Python, pandas, numpy, and matplotlib.
 </p>
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[OHLCV Generator GBM] --> B[Indicator Pipeline]
+    B --> B1[SMA/EMA/RSI]
+    B --> B2[MACD/Bollinger]
+    B --> B3[ATR/Stochastic]
+    B --> C[Backtester]
+    C --> D[Strategies]
+    D --> D1[SMA Crossover]
+    D --> D2[RSI]
+    C --> E[Forecasters]
+    E --> F[HTML/JSON Reports]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**91 passing**, **0 failing**, **0 skipped** (total 91, framework: pytest)
+
+## References & Further Reading
+
+- Murphy, J. J. (1999). *Technical Analysis of the Financial Markets.* New York Institute of Finance.
+- Bollinger, J. (2001). *Bollinger on Bollinger Bands.* McGraw-Hill.
+- Glasserman, P. (2003). *Monte Carlo Methods in Financial Engineering.* Springer. [↗](https://link.springer.com/book/10.1007/978-0-387-21617-1)
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/finance-market-analyzer) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->

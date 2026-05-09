@@ -1,0 +1,11 @@
+flowchart LR
+    A[OHLCV Generator GBM] --> B[Indicator Pipeline]
+    B --> B1[SMA/EMA/RSI]
+    B --> B2[MACD/Bollinger]
+    B --> B3[ATR/Stochastic]
+    B --> C[Backtester]
+    C --> D[Strategies]
+    D --> D1[SMA Crossover]
+    D --> D2[RSI]
+    C --> E[Forecasters]
+    E --> F[HTML/JSON Reports]
