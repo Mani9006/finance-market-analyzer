@@ -353,6 +353,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Technical Indicator Backtesting and Forward Forecasting on Equity Time Series**
+
+_A study of momentum, mean-reversion, and volatility-targeted strategies on Yahoo Finance daily OHLCV data_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** backtesting, technical analysis, mean reversion, volatility targeting, Holt-Winters
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
